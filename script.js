@@ -8,7 +8,7 @@ function openGallery(type){
   let imgs = [];
 
   if(type==="photo"){
-    imgs=["images/photo/p1.jpeg","images/photo/p2.jpeg","images/photo/p3.jpeg"];
+    imgs=["/Tagore/p1.jpeg","/Tagore/p2.jpeg","/Tagore/p3.jpeg"];
   }
   if(type==="video"){
     imgs=["images/video/v1.jpg","images/video/v2.jpg"];
@@ -74,5 +74,6 @@ galleryContent.addEventListener("mouseleave", ()=>{
     card.style.transform="";
   });
 });
+
 
 
